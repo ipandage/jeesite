@@ -10,9 +10,9 @@
 		#header {margin:0 0 10px;position:static;} #header li {font-size:14px;_font-size:12px;}
 		#header .brand {font-family:Helvetica, Georgia, Arial, sans-serif, 黑体;font-size:26px;padding-left:33px;}
 		#footer {margin:8px 0 0 0;padding:3px 0 0 0;font-size:11px;text-align:center;border-top:2px solid #0663A2;}
-		#footer, #footer a {color:#999;} 
+		#footer, #footer a {color:#999;}
 	</style>
-	<script type="text/javascript"> 
+	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#menu a.menu").click(function(){
 				$("#menu li.menu").removeClass("active");
@@ -85,11 +85,11 @@
 				</div>
 			</div>
 		    <div id="footer" class="row-fluid">
-	            Copyright &copy; 2012-${fns:getConfig('copyrightYear')} ${fns:getConfig('productName')} - Powered By <a href="https://github.com/thinkgem/jeesite" target="_blank">JeeSite</a> ${fns:getConfig('version')}
+	            Copyright &copy; 2012-${fns:getConfig('copyrightYear')} ${fns:getConfig('productName')} - Powered By <a href="https://github.com/thinkgem/jeesite" target="_blank">ipandage</a> ${fns:getConfig('version')}
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript"> 
+	<script type="text/javascript">
 		var leftWidth = "160"; // 左侧窗口大小
 		function wSize(){
 			var minHeight = 500, minWidth = 980;

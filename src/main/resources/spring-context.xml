@@ -33,7 +33,8 @@
 				<prop key="hibernate.search.default.directory_provider">filesystem</prop>
 				<prop key="hibernate.search.default.indexBase">${hibernate.search.default.indexBase}</prop>
 				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
-			</props>
+                <prop key="hibernate.format_sql">${hibernate.show_sql}</prop>
+            </props>
 		</property>
 		<property name="namingStrategy">
 			<bean class="org.hibernate.cfg.ImprovedNamingStrategy" />

@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><sitemesh:title/> - Powered By Jeesite</title>
+		<title><sitemesh:title/> - Powered By ipandage</title>
 		<%@include file="/WEB-INF/views/mobile/include/head.jsp" %>
 		<sitemesh:head/>
 	</head>

@@ -4,7 +4,7 @@
 <head>
 	<title>菜单导航</title>
 	<meta name="decorator" content="default"/>
-	<script type="text/javascript"> 
+	<script type="text/javascript">
 		$(document).ready(function() {
 			$(".accordion-heading a").click(function(){
 				$('.accordion-toggle i').removeClass('icon-chevron-down');
